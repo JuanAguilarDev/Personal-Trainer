@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 20px !important;
+    position: fixed;
+    top: 0;
+}
+
+#imageLogo img {
+    width: 150px;
+}
+
+main {
+    background-image: url(../img/bg_Main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+main .options div {
+    height: 200px;
+    width: 200px;
+    background-color: #000;
+}
+
+main .options .middle {
+    background-color: #004080;
+}
+
+main .options div h2 {
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+main .options div p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+main .options div button {
+    border: 1px solid #fff;
+    background-color: #000;
+}
+
+main .options div button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+main .options .middle button {
+    background-color: #004080;
+}
+
+.options {
+    padding-top: 300px;
+}
+
+.second {
+    height: 500px;
+    overflow: hidden;
+}
+
+.second #info {
+    padding: 40px 0;
+}
+
+.second #info h2 {
+    color: #000;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.second #info h3 {
+    color: #0000ff;
+    margin-top: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.second #info h4 {
+    color: #000;
+    margin: 20px 0;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.second #info p {
+    color: rgb(78, 78, 78);
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.second #trainer img {
+    margin-top: 20px;
+    width: 400px;
+}
+
+.about {
+    height: 250px;
+    background-color: #000;
+}
+
+.about .text {
+    margin: 40px 0 0 80px;
+}
+
+.about .text h2,
+p {
+    color: #fff;
+}
+
+.about .text h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about .text p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.meet {
+    height: 350px;
+}
+
+.meet .description p {
+    color: rgb(78, 78, 78);
+}
+
+.content {
+    width: 700px;
+    height: 290px;
+    margin-top: 30px;
+}
+
+.content h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+
+.content h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.trainer {
+    height: 290px;
+    width: 200px;
+    border: 1px solid #ccc;
+    margin-left: 50px;
+}
+
+.trainer img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.trainer #name {
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+.trainer #des {
+    margin-left: 20px;
+}
+
+.info_Packages p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+
+.info h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.packages p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+
+.packages span {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+.packages td {
+    border: 1px solid #000;
+}
+
+.packages th {
+    background-color: #c9d6dad7;
+    border: 1px solid #000;
+}
+
+#tables {
+    margin: 5px;
+}
+
+.packages button {
+    margin: 10px 0;
+    background-color: #fff;
+    color: #000;
+}
+
+#map {
+    width: 200px;
+    height: 430px;
+    border-radius: 10px 0 10px 0;
+}
+
+.contact p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+}
+
+.contact span {
+    color: #f00;
+}
+
+.contact form {
+    background-color: #dafbfb;
+    border-radius: 10px 0 10px 0;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #ccc;
+}
